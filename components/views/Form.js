@@ -1,4 +1,6 @@
-export default () => `
+import html from "html-literal";
+
+export default (st) => html `
 <form id="register" method="POST" action="">
   <div>
     <label for="username">Username:</label>
