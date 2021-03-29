@@ -3,5 +3,5 @@ import html from "html-literal";
 import * as views from "./views";
 
 export default (st) => html`
-${views["st.views"](page)}
+${views[st.page](st)}
 `;
